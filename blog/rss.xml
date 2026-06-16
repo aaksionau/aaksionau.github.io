@@ -36,12 +36,13 @@
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="whats-coming">What's Coming<a href="https://aaksionau.github.io/blog/why-csharp-microsoft-agent-framework#whats-coming" class="hash-link" aria-label="Direct link to What's Coming" title="Direct link to What's Coming" translate="no">​</a></h2>
 <p>This is the first in a series on my work with C# and the Microsoft Agent Framework:</p>
 <ol>
-<li class=""><strong>Building your first AI agent in C#</strong> — setting up Semantic Kernel, wiring your first agent, and making a real tool call</li>
-<li class=""><strong>Connecting agents to SQL databases</strong> — structured data access as a tool, with schema awareness and safe query patterns</li>
-<li class=""><strong>Implementing Retrieval-Augmented Generation (RAG)</strong> — chunking, embedding, and connecting Azure AI Search to an agent</li>
-<li class=""><strong>Creating custom tools for agents</strong> — designing tools that agents actually use reliably</li>
+<li class=""><strong>Building your first AI agent in C#</strong> — setting up Microsoft Agent Framework and wiring your first agent</li>
+<li class=""><strong>Creating custom tools for agents</strong> — what tools are, how agents decide to use them, and how to design ones that work reliably</li>
+<li class=""><strong>Extending agents with MCP</strong> — what the Model Context Protocol is, how to connect your agent to MCP servers, and when to use MCP over custom tools</li>
+<li class=""><strong>Connecting agents to SQL databases</strong> — using a tool to give an agent structured data access, with schema awareness and safe query patterns</li>
 <li class=""><strong>Orchestrating multiple specialized agents</strong> — splitting responsibilities across agents and coordinating them</li>
-<li class=""><strong>Using vector search and embeddings effectively</strong> — going beyond basic RAG with hybrid search and re-ranking</li>
+<li class=""><strong>Embeddings and Azure AI Search</strong> — how embeddings work, building a vector index, and wiring semantic search into an agent</li>
+<li class=""><strong>Retrieval-Augmented Generation (RAG)</strong> — chunking documents, storing embeddings, and building an agent that answers from your own data</li>
 <li class=""><strong>Deploying AI applications to production</strong> — packaging, configuration, monitoring, and the lessons that only show up in prod</li>
 </ol>
 <p>Every post will come with working code, and I will keep it practical, closer to "here is what I actually built" than "here is the perfect architecture." If any of this sounds familiar, I think you will find the next one worth your time.</p>
