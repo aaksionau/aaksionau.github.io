@@ -48,13 +48,14 @@ Writing is also just how I learn. If putting this down helps someone else avoid 
 
 This is the first in a series on my work with C# and the Microsoft Agent Framework:
 
-1. **Building your first AI agent in C#** — setting up Semantic Kernel, wiring your first agent, and making a real tool call
-2. **Connecting agents to SQL databases** — structured data access as a tool, with schema awareness and safe query patterns
-3. **Implementing Retrieval-Augmented Generation (RAG)** — chunking, embedding, and connecting Azure AI Search to an agent
-4. **Creating custom tools for agents** — designing tools that agents actually use reliably
+1. **Building your first AI agent in C#** — setting up Microsoft Agent Framework and wiring your first agent
+2. **Creating custom tools for agents** — what tools are, how agents decide to use them, and how to design ones that work reliably
+3. **Extending agents with MCP** — what the Model Context Protocol is, how to connect your agent to MCP servers, and when to use MCP over custom tools
+4. **Connecting agents to SQL databases** — using a tool to give an agent structured data access, with schema awareness and safe query patterns
 5. **Orchestrating multiple specialized agents** — splitting responsibilities across agents and coordinating them
-6. **Using vector search and embeddings effectively** — going beyond basic RAG with hybrid search and re-ranking
-7. **Deploying AI applications to production** — packaging, configuration, monitoring, and the lessons that only show up in prod
+6. **Embeddings and Azure AI Search** — how embeddings work, building a vector index, and wiring semantic search into an agent
+7. **Retrieval-Augmented Generation (RAG)** — chunking documents, storing embeddings, and building an agent that answers from your own data
+8. **Deploying AI applications to production** — packaging, configuration, monitoring, and the lessons that only show up in prod
 
 Every post will come with working code, and I will keep it practical, closer to "here is what I actually built" than "here is the perfect architecture." If any of this sounds familiar, I think you will find the next one worth your time.
 
