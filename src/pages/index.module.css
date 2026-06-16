@@ -16,8 +16,35 @@
   }
 }
 
-.buttons {
+.recentPosts {
+  padding: 3rem 0;
+}
+
+.recentPostsTitle {
+  margin-bottom: 2rem;
+}
+
+.postList {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.postCard {
+  border-bottom: 1px solid var(--ifm-color-emphasis-300);
+  padding-bottom: 2rem;
+}
+
+.postCard:last-child {
+  border-bottom: none;
+}
+
+.postMeta {
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+.postDescription {
+  margin-bottom: 0.75rem;
 }
