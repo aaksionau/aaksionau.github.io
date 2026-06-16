@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+csharp:
+  label: C#
+  permalink: /csharp
+  description: Posts about C# development
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+dotnet:
+  label: .NET
+  permalink: /dotnet
+  description: Posts about .NET ecosystem
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+ai:
+  label: AI
+  permalink: /ai
+  description: Posts about artificial intelligence and machine learning
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+microsoft-agent-framework:
+  label: Microsoft Agent Framework
+  permalink: /microsoft-agent-framework
+  description: Posts about the Microsoft Agent Framework
+
+azure:
+  label: Azure
+  permalink: /azure
+  description: Posts about Microsoft Azure
