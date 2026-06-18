@@ -1,4 +1,3 @@
-import Link from '@docusaurus/Link';
 import { PageMetadata } from '@docusaurus/theme-common';
 import LeftSidebar from '@site/src/components/LeftSidebar';
 import Layout from '@theme/Layout';
@@ -66,7 +65,7 @@ export default function About(): JSX.Element {
                     <h3>AI & Agents</h3>
                     <ul>
                       <li>Azure AI Foundry</li>
-                      <li>Microsoft Semantic Kernel</li>
+                      <li>Generative AI</li>
                       <li>LLM integration & evaluation</li>
                     </ul>
                   </div>
