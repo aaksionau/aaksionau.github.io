@@ -43,7 +43,7 @@ const projects: Project[] = [
     organization: 'Personal Project',
     duration: '6 Months',
     year: 2022,
-    tech: ['Angular', 'Azure Functions', 'Azure Data Tables', 'GitHub Actions', 'Azure Static Web Apps', 'Azure Storage'],
+    tech: ['Angular', 'Azure Functions', 'Azure Data Tables', 'GitHub Actions', 'Azure Static Web App', 'Azure Storage'],
     bullets: [
       'Built Angular SPA to share resources among homeschooling families.',
       'Developed event scheduling and communication features.',
@@ -109,7 +109,7 @@ const projects: Project[] = [
     organization: 'University of Minnesota',
     duration: '6 Months',
     year: 2026,
-    tech: ['Python', 'React', 'Azure AI Foundry', 'Azure Application Insights', 'Azure DevOps', 'Azure App Service', 'Azure Static App'],
+    tech: ['Python', 'React', 'Azure AI Foundry', 'Azure Application Insights', 'Azure DevOps', 'Azure App Service', 'Azure Static Web App'],
     bullets: [
       'Designed and implemented multi-agent workflows to improve consistency and reliability of AI-generated results.',
       'Helped define the overall workflow architecture and implemented structured outputs throughout the solution.',
@@ -135,7 +135,7 @@ const projects: Project[] = [
     organization: 'Personal Project',
     duration: '',
     year: 2026,
-    tech: ['.NET 10', 'ASP.NET Core', 'Razor Pages', 'PostgreSQL', 'EF Core', 'pgvector', 'Azure OpenAI', 'Azure AI Foundry', 'Hangfire', 'Azure Blob Storage'],
+    tech: ['.NET 10', 'ASP.NET Core', 'Razor Pages', 'PostgreSQL', 'EF Core', 'pgvector', 'Azure OpenAI', 'Azure AI Foundry', 'Hangfire', 'Azure Storage'],
     bullets: [
       'Modular monolith in ASP.NET Core (.NET 10) with isolated EF Core DbContexts per module and PostgreSQL as the data store.',
       'AI-powered semantic book search using Azure OpenAI embeddings (pgvector) and automated age classification via Azure AI Foundry (GPT-4o-mini).',
