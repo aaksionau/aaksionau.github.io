@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_blog=self.webpackChunkmy_blog||[]).push([["833"],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Why I\'m Building AI Applications with C# and Microsoft Agent Framework","permalink":"/why-csharp-microsoft-agent-framework","unlisted":false,"date":"2026-06-16T00:00:00.000Z"}]}')}}]);

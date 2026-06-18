@@ -18,6 +18,7 @@
 <p>That is where we found ourselves a few months into building with Python.</p>
 <p>When we started, we did what most teams do. We reached for Python. It is an easy choice to defend. The tutorials are Python. The SDKs are Python. The examples are Python. And FastAPI really does let you stand up an inference endpoint in an afternoon. So that is what we built, and it felt obvious.</p>
 <p>But obvious and right are not always the same thing. A few months in, the gap between them started to show.</p>
+<!-- -->
 <h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="what-we-ran-into">What We Ran Into<a href="https://aaksionau.github.io/why-csharp-microsoft-agent-framework#what-we-ran-into" class="hash-link" aria-label="Direct link to What We Ran Into" title="Direct link to What We Ran Into" translate="no">​</a></h2>
 <p>None of it was dramatic, and that is almost the point. It was a slow pile-up of small things that were harder than they needed to be. Small things, repeated every day, are the ones that wear you down.</p>
 <p><strong>Dependency injection</strong> was the first. FastAPI has DI, but it is more limited than what .NET gives you. As the app grew, with multiple agents, different data sources, and shared services, wiring everything together took more and more by-hand work and custom scaffolding. In .NET, <code>IServiceCollection</code> and constructor injection handle this for you, with lifetimes and scoping built in from the start. You stop thinking about the wiring and start thinking about the work.</p>

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmy_blog=globalThis.webpackChunkmy_blog||[]).push([[434],{6119(a){a.exports=JSON.parse('{"metadata":{"permalink":"/","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"Practical articles on .NET, Azure, Kubernetes, and AI","blogTitle":"Aliaksei Aksionau Blog"}}')}}]);
