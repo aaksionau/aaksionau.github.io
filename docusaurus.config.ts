@@ -11,7 +11,8 @@ const config: Config = {
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
+    faster: false,
   },
 
   // Set the production url of your site here
@@ -50,6 +51,10 @@ const config: Config = {
         blog: {
           routeBasePath: '/',
           showReadingTime: true,
+          postsPerPage: 5,
+          blogTitle: 'Aliaksei Aksionau Blog',
+          blogDescription: 'Practical articles on .NET, Azure, Kubernetes, and AI',
+          truncateMarker: /\{\/\*\s*truncate\s*\*\/\}/,
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -77,57 +82,11 @@ const config: Config = {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
-      items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'Tutorial',
-        },
-        {to: '/', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/aaksionau',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
+      items: [],
     },
     footer: {
       style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: '/',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/aaksionau',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Aliaksei Aksionau. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Aliaksei Aksionau.`,
     },
     prism: {
       theme: prismThemes.github,

@@ -14,6 +14,8 @@ When we started, we did what most teams do. We reached for Python. It is an easy
 
 But obvious and right are not always the same thing. A few months in, the gap between them started to show.
 
+{/* truncate */}
+
 ## What We Ran Into
 
 None of it was dramatic, and that is almost the point. It was a slow pile-up of small things that were harder than they needed to be. Small things, repeated every day, are the ones that wear you down.

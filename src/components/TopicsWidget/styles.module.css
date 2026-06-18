@@ -1,0 +1,40 @@
+.topicsWidget {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  margin-top: 2rem;
+}
+
+.topicsLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-500);
+}
+
+.topicPills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.topicLink {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  background: color-mix(in srgb, var(--ifm-color-primary) 10%, transparent);
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+.topicLink:hover {
+  background: var(--ifm-color-primary);
+  color: #fff;
+}

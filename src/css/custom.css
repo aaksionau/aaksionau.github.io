@@ -28,3 +28,52 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* ── Blog post author card ── */
+
+/* Author name: use base color instead of primary green */
+.avatar__name a {
+  color: var(--ifm-font-color-base) !important;
+  text-decoration: none !important;
+  font-weight: 600;
+}
+
+.avatar__name a:hover {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Tighten spacing between the header and article body */
+.blogPostDetailPage article header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+/* Post header date/meta line */
+.blogPostDetailPage article header .margin-vert--md {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* More breathing room before H2 headings in blog posts */
+.blogPostDetailPage article h2 {
+  margin-top: 2.75rem;
+}
+
+/* GitHub navbar link as pill button */
+.navbar-github-btn {
+  border: 1.5px solid var(--ifm-color-emphasis-400);
+  border-radius: 20px;
+  padding: 0.3rem 0.9rem !important;
+  font-size: 0.85rem !important;
+  margin-left: 0.25rem;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+.navbar-github-btn:hover {
+  border-color: var(--ifm-color-primary) !important;
+  color: var(--ifm-color-primary) !important;
+  text-decoration: none;
+}

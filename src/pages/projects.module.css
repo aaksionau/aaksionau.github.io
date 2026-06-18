@@ -1,0 +1,250 @@
+.pageLayout {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+}
+
+.mainContent {
+  flex: 1;
+  min-width: 0;
+  padding: 2rem 8.5rem;
+}
+
+.projectsContainer {
+  max-width: 720px;
+}
+
+.pageTitle {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem;
+}
+
+.pageSubtitle {
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0 0 2.5rem;
+}
+
+/* ── Timeline ── */
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timelineSection {
+  display: grid;
+  grid-template-columns: 2.75rem 16px 1fr;
+  column-gap: 0.75rem;
+}
+
+.yearLabel {
+  grid-column: 1;
+  align-self: start;
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ifm-color-emphasis-600);
+  padding-top: 3px;
+  letter-spacing: 0.02em;
+}
+
+.dotAndLine {
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yearDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--ifm-color-primary);
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.yearLine {
+  flex: 1;
+  width: 2px;
+  background: var(--ifm-toc-border-color);
+  margin-top: 0.5rem;
+}
+
+.yearCards {
+  grid-column: 3;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.projectCard {
+  padding: 1rem 0;
+}
+
+.projectCard + .projectCard {
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.projectName {
+  font-size: 1.05rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.organization {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  display: block;
+  margin-top: 0.15rem;
+}
+
+.duration {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.techList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.techTag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-700);
+}
+
+.bullets {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.bullets li {
+  font-size: 0.9rem;
+  line-height: 1.65;
+  color: var(--ifm-color-emphasis-800);
+  margin-bottom: 0.35rem;
+}
+
+.bullets li:last-child {
+  margin-bottom: 0;
+}
+
+/* ── Tech filter ── */
+
+.filterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.75rem;
+}
+
+.filterChip {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  border: 1.5px solid var(--ifm-color-emphasis-300);
+  background: transparent;
+  color: var(--ifm-color-emphasis-700);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+  font-family: inherit;
+}
+
+.filterChip:hover {
+  border-color: var(--ifm-color-primary);
+  color: var(--ifm-color-primary);
+}
+
+.filterChipActive {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary);
+  color: #fff !important;
+}
+
+.filterChipActive:hover {
+  border-color: var(--ifm-color-primary-dark);
+  background: var(--ifm-color-primary-dark);
+}
+
+.clearFilter {
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  border: 1.5px solid transparent;
+  background: transparent;
+  color: var(--ifm-color-emphasis-500);
+  cursor: pointer;
+  transition: color 0.15s ease;
+  font-family: inherit;
+  margin-left: 0.15rem;
+}
+
+.clearFilter:hover {
+  color: var(--ifm-color-emphasis-900);
+}
+
+.filterCount {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-600);
+  margin: 0 0 1.5rem;
+}
+
+.emptyState {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-600);
+  margin-top: 1.5rem;
+}
+
+.techTagActive {
+  color: var(--ifm-color-primary-darkest);
+  background: var(--ifm-color-primary-lightest);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .techTagActive {
+  color: var(--ifm-color-primary-lightest);
+  background: rgba(37, 194, 160, 0.15);
+}
+
+@media (max-width: 996px) {
+  .pageLayout {
+    flex-direction: column;
+  }
+
+  .mainContent {
+    padding: 1.5rem 1rem;
+  }
+
+  .cardHeader {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}

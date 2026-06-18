@@ -1,0 +1,114 @@
+.leftSidebar {
+  width: 260px;
+  flex-shrink: 0;
+  border-right: 1px solid var(--ifm-toc-border-color);
+  padding: 2rem 1.25rem;
+  position: sticky;
+  top: var(--ifm-navbar-height);
+  height: calc(100vh - var(--ifm-navbar-height));
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.profileSection {
+  text-align: center;
+}
+
+.profileImage {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 0.75rem;
+}
+
+.profileName {
+  font-weight: 700;
+  font-size: 0.95rem;
+  margin: 0 0 0.4rem;
+}
+
+.profileBio {
+  font-size: 0.8rem;
+  color: var(--ifm-color-emphasis-700);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.divider {
+  height: 1px;
+  background: var(--ifm-toc-border-color);
+}
+
+.navSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+}
+
+.navSectionGrouped {
+  border-left: 2px solid var(--ifm-color-primary);
+  padding-left: 0.5rem;
+}
+
+.navGroupLabel {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ifm-color-emphasis-600);
+  padding: 0 0 0.35rem;
+  display: block;
+}
+
+.navLink {
+  display: block;
+  padding: 0.45rem 0.6rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--ifm-font-color-base);
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.navLink:hover {
+  background: var(--ifm-hover-overlay);
+  color: var(--ifm-color-primary);
+}
+
+.socialRow {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  padding-left: 0.25rem;
+}
+
+.socialIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+  border-radius: 6px;
+  color: var(--ifm-color-emphasis-600);
+  text-decoration: none !important;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.socialIcon:hover {
+  background: var(--ifm-hover-overlay);
+  color: var(--ifm-color-primary);
+}
+
+@media (max-width: 996px) {
+  .leftSidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    border-right: none;
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+  }
+}
