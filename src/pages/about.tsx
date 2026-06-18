@@ -41,37 +41,6 @@ export default function About(): JSX.Element {
                   mistakes I made, tools worth knowing about.
                 </p>
               </section>
-
-              <section className={styles.section}>
-                <h2>What I work with</h2>
-                <div className={styles.skillsGrid}>
-                  <div className={styles.skillGroup}>
-                    <h3>Languages & Frameworks</h3>
-                    <ul>
-                      <li>C# / .NET</li>
-                      <li>ASP.NET Core</li>
-                      <li>TypeScript / React</li>
-                    </ul>
-                  </div>
-                  <div className={styles.skillGroup}>
-                    <h3>Cloud & Infrastructure</h3>
-                    <ul>
-                      <li>Microsoft Azure</li>
-                      <li>Kubernetes</li>
-                      <li>Docker</li>
-                    </ul>
-                  </div>
-                  <div className={styles.skillGroup}>
-                    <h3>AI & Agents</h3>
-                    <ul>
-                      <li>Azure AI Foundry</li>
-                      <li>Generative AI</li>
-                      <li>LLM integration & evaluation</li>
-                    </ul>
-                  </div>
-                </div>
-              </section>
-
               <section className={styles.section}>
                 <h2>Get in touch</h2>
                 <p>
